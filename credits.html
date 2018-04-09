@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Journal Theme</title>
+<!-- Ensure proper rendering and touch zooming on mobile
+devices -->
+<meta name="viewport" content="width=device-width, initial-scale=
+1.0">
+<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+<!--======================LIBS JS:========================================= -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--======================LIBS CSS:========================================= -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!--======================FONTAWESOME 4.7.0 :========================================= -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--======================MAIN CSS:========================================= -->
+<link rel="stylesheet" type="text/css" href="css/main.min.css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements
+and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/
+html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/
+respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!--- - - - - - - - - - - -NAVIGATION - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" style="">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown" >
+	        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="action1" href="#">Action 1
+	        	<span class="caret"></span>
+	        </a>
+	        <div class="dropdown-menu" area-labelledby="action1" style="min-width: 20rem;">
+	        	<a class="dropdown-item" href="#">Action 1A</a>
+	        	<div class="dropdown-divider"></div>
+		        	<div class="row">
+		        		<div class="col-sm-6 col-xs-12">
+		        			<a class="dropdown-item" href="#">Action 1B</a>
+				        	<a class="dropdown-item" href="#">Action 1C</a>
+				        	<a class="dropdown-item" href="#">Action 1D</a>
+				        	<a class="dropdown-item" href="#">Action 1E</a>
+				        	<a class="dropdown-item" href="#">Action 1F</a>
+		        		</div>
+		        		<div class="col-sm-6 col-xs-12">
+		        			<a class="dropdown-item" href="#">Action 1G</a>
+				        	<a class="dropdown-item" href="#">Action 1H</a>
+				        	<a class="dropdown-item" href="#">Action 1J</a>
+				        	<a class="dropdown-item" href="#">Action 1K</a>
+				        	<a class="dropdown-item" href="#">Action 1L</a>
+		        		</div>
+		        	</div>
+	        	
+	        	
+	        </div>
+      </li>
+      <li class="nav-item dropdown" >
+	        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="action2" href="#">Action 2
+	        	<span class="caret"></span>
+	        </a>
+	        <div class="dropdown-menu" area-labelledby="action2" style="min-width: 25rem;">
+	        	<div class="row">
+	        		<div class="col-sm-6 col-xs-12">
+	        			<a class="dropdown-item event" href="eventA.html">	        			
+			        		<img src="images/small/event1.jpg">
+			        		<div class="caption">
+			        			<p>Event A</p>
+			        		</div>
+			        	</a>	        	
+			        	<a class="dropdown-item event" href="#">
+			        		<img src="images/small/event3.jpg">
+			        		<div class="caption">
+			        			<p>Event B</p>
+			        		</div>
+			        	</a>
+			        	<a class="dropdown-item event" href="#">
+			        		<img src="images/small/event2.jpg">
+			        		<div class="caption">
+			        			<p>Event C</p>
+			        		</div>
+			        	</a>
+	        		</div>
+	        		<div class="col-sm-6 col-xs-12">
+	        			<a class="dropdown-item event" href="#">	        			
+			        		<img src="images/small/event4.jpg">
+			        		<div class="caption">
+			        			<p>Event D</p>
+			        		</div>
+			        	</a>	        	
+			        	<a class="dropdown-item event" href="#">
+			        		<img src="images/small/coffee_sm.jpg">
+			        		<div class="caption">
+			        			<p>Event E</p>
+			        		</div>
+			        	</a>
+			        	<a class="dropdown-item event" href="#">
+			        		<img src="images/small/event5.jpg">
+			        		<div class="caption">
+			        			<p>Event F</p>
+			        		</div>
+			        	</a>
+	        		</div>
+	        	</div>
+	        	
+	        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Archive</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+	    <a class="nav-link disabled" href="#">Link Disabled</a>
+	  </li>
+    </ul>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown" style="padding-right: 5px;">
+	  <button type="button" class="btn btn-secondary">Sign In</button>
+	  <div class="btn-group" role="group">
+	    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+	    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform; ">
+	      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#login">Login</a>
+	      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#register">Register</a>
+	    </div>
+	  </div>
+	</div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+	<!--- - - - - -Modals #login, #register and #passwordReset - - - -  -->
+ <div class="modal" id="login">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title">Log In:</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <form class="form">
+				      	<div class="modal-body">				        
+							<legend>Welcome Back</legend>
+						    
+						    <div class="form-group">
+						      <label for="exampleInputEmail1">Email address</label>
+						      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						    </div>
+						    <div class="form-group">
+						      <label for="exampleInputPassword1">Password</label>
+						      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						    </div>
+						    <p><a href="#" data-toggle="modal" data-target="#passwordReset">Forgot your password ?</a></p>
+
+					    </div>
+					     <div class="modal-footer">
+					        <button type="submit" class="btn btn-primary">Sign In</button>
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					     </div>
+				      </form>
+				    </div>
+				  </div>
+				</div>
+				<!--#login end-->
+				<!--Modal  #register-->
+				<div class="modal" id="register">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title">Registration</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				    <form class="form">
+				      <div class="modal-body">
+					        <legend>Register with us:</legend>
+					        <div class="form-group">
+					        	<label for="firstname">First name</label>
+					        	<input type="text" name="firstname" class="form-control" id="firstname" placeholder="type your First Name">
+					        </div>
+					        <div class="form-group">
+					        	<label for="lasttname">Last name</label>
+					        	<input type="text" name="lasttname" class="form-control" id="lasttname" placeholder="type your Last Name">
+					        </div>
+				        	<div class="form-group">
+						      <label for="email">Email address</label>
+						      <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">  
+						    </div>
+						    <div class="form-group">
+						      <label for="confirm_email">Confirm Email address</label>
+						      <input type="email" name="confirm_email" class="form-control" id="confirm_email" aria-describedby="emailHelp" placeholder="Re-type your Enter email">  
+						    </div>
+						    <div class="form-group">
+						    	<label for="password">Choose password</label>
+						    	<input type="password" name="password" class="form-control" id="password">
+						    </div>
+						    <div class="form-group">
+						    	<label for="confirm_password">Confirm password</label>
+						    	<input type="password" name="confirm_password" class="form-control" id="confirm_password">
+						    </div>
+
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-primary">Register</button>
+				        <button type="reset" class="btn btn-primary">Reset</button>
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </form>
+				    </div>
+				  </div>
+				</div>
+				<!--End Modal  #register-->
+				<!--Modal  Forgot password-->
+					<div class="modal" id="passwordReset">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title">Password Reset</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <form class="form">
+					      <div class="modal-body">
+					        <legend>Type your email address:</legend>
+						    
+						    <div class="form-group">
+						      <label for="exampleInputEmail1">Email address</label>
+						      <input type="email" class="form-control" id="passwordResetEmail" aria-describedby="emailHelp" placeholder="Enter email">
+						      <small id="emailHelp" class="form-text text-muted">We shall email you link for password reset</small>
+						    </div>
+					        	<br><br><br><br><br>
+
+					        
+					      </div>
+					      <div class="modal-footer">
+					        <button type="submit" class="btn btn-primary">Reset Password</button>
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					      </div>
+				      </form>
+				    </div>
+				  </div>
+				</div>
+
+				<!--Modal  Forgot password End-->
+
+	<!--- - - - - -Modals #login and #register #passwordReset end- - - -  -->
+<!--- - - - - - - - - - - -NAVIGATION END- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item active">Attributions</li>
+</ol>
+<!--- - - - - - - - - - - -MAIN CONTENT- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<div class="container">
+	<div class="row">
+		<div class="jumbotron">
+		  <h4 class="display-5">Credits & Attributions:</h4>
+		  <p class="lead">This website has been created in connection with:</p>
+		  <hr class="my-4">
+		  <small>
+		  	<p>Web theme template supplied by: <a href="https://bootswatch.com/">Bootswatch</a> </p>
+		  	<p>Icons from <a href="http://fontawesome.io/">Font Awesome.</a></p>
+		  <p>Images supplied by:<a href="https://pixabay.com/">Pixabay</a></p>
+		  <p>The original lightbox script supplied by: <a href="http://lokeshdhakar.com/">by Lokesh Dhakar</a></p>
+		  </small>
+		  
+		  <p class="lead">
+		    <a class="btn btn-primary btn-sm" href="#" role="button">Learn more</a>
+		  </p>
+		</div>
+	</div>
+</div>
+
+	
+<!--- - - - - - - - - - - -MAIN CONTENT- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+<!--- - - - - - - - - - - -FOOTER- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<div class="container-fluid" id="well">
+	<br>
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="row"><div class="col-md-12"><h5 style="text-align: center;">Site Map:</h5></div></div>
+			<div class="row sitemap">
+		        		<div class="col-lg-3 col-md-6 col-sm-4">
+		        			<ul>
+		        				<li><a  href="#">Action 1B</a></li>
+		        				<li><a  href="#">Action 1C</a></li>
+		        				<li><a  href="#">Action 1D</a></li>
+		        				<li><a  href="#">Action 1E</a></li>
+		        				<li><a  href="#">Action 1F</a></li>
+		        			</ul>
+		        		</div>
+		        		<div class="col-lg-3 col-md-6 col-sm-4">
+		        			<ul>
+		        				<li><a  href="#">Action 1G</a></li>
+		        				<li><a  href="#">Action 1H</a></li>
+		        				<li><a  href="#">Action 1J</a></li>
+		        				<li><a  href="#">Action 1K</a></li>
+		        				<li><a  href="#">Action 1L</a></li>
+		        			</ul>
+		        		</div>
+		        		<div class="col-lg-3 col-md-6 col-sm-4">
+							<ul>
+								<li><a href="eventA.html">Event A</a></li>
+								<li><a href="#">Event B</a></li>
+								<li><a href="#">Event C</a></li>				
+							</ul>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-4" >
+							<ul>
+								<li><a href="#">Event D</a></li>
+								<li><a href="#">Event E</a></li>
+								<li><a href="#">Event F</a></li>				
+							</ul>
+						</div>
+		    </div>
+		</div>
+
+		
+		<div class="col-md-3 col-sm-12" >
+			<div class="row"><div class="col-md-12"><h5 style="text-align: center;">In partnership:</h5></div></div>
+			<br>
+			<div class="row" style="padding-right: 30px;">
+				
+					<div class="col-sm-4  col-xs-12 partnership" >				
+					    <a href="#"><img src="images/logo2.png" class="img-fluid"></a>
+					    <p><small>Company Ltd.</small></p>				  
+					</div>
+					<div class="col-sm-4  col-xs-12 partnership">				
+						    <a href="#"><img src="images/logo3.png" class="img-fluid"></a>
+						    <p><small>Company Ltd.</small></p>					
+					</div>
+					<div class="col-sm-4  col-xs-12 partnership" >				
+						    <a href="#"><img src="images/logo4.png" class="img-fluid"></a>
+						    <p><small>Company Ltd.</small></p>					
+					</div>
+			</div>	
+		</div>	
+
+		<div class="col-md-3 offset-md-0 col-sm-6 offset-sm-3 col-xs-12" >		
+			<div class="row">
+				
+					<form class="form" style="padding: 0 3px 0 30px;">
+					  <fieldset>  
+					  	<h5 style="text-align: center;">Ask a question:</h5>     
+					    <div class="form-group">
+						  <label class="col-form-label col-form-label-sm" for="email">Email</label>
+						  <input class="form-control form-control-sm" type="email" name="email" placeholder="Email address" id="emailInquiry">
+
+					      <label for="exampleTextarea" class="col-form-label-sm">Your inquiry</label>
+					      <textarea class="form-control form-control-sm" id="exampleTextarea" rows="3"></textarea>
+					    </div>
+					              
+					      <div class="form-check">
+					        <label class="form-check-label col-form-label-sm">
+					          <input class="form-check-input form-control-sm" type="checkbox" value="" checked="">
+					        <small>Email me new product releases</small> 
+					        </label>
+					        <label class="form-check-label col-form-label-sm">
+					          <input class="form-check-input form-control-sm" type="checkbox" value="" checked="">
+					          <small>Email me Promotional offers</small>
+					        </label>
+					      </div>           
+					   
+					    <button type="submit" class="btn btn-primary ">Submit</button>
+					  </fieldset>
+					</form>
+
+				
+			</div>	
+		</div>				
+		
+
+	</div><!--END ROW -->
+
+	
+</div>
+<hr>
+<div class="row">
+		<div class="col-sm-6 col-xs-12" style="text-align: right;">
+			<a href="http://www.facebook.com/sharer.php?u= https://bootswatch.com/sketchy/ " class="fa fa-facebook"></a>&nbsp;
+				  		<!--To share on facebook link: http://www.facebook.com/sharer.php?u= YOUR WEBSITE URL -->
+			<a href="https://twitter.com/share?ref_src=https://bootswatch.com/sketchy/" class="fa fa-twitter"></a>&nbsp;
+						<!--To share on TWITTER link: https://twitter.com/share?ref_src= YOUR WEBSITE URL -->
+			<a href="https://plus.google.com/share?url=https://bootswatch.com/sketchy/" class="fa fa-google"></a>&nbsp;
+						<!--To share on Google link: https://plus.google.com/share?url= YOUR WEBSITE URL -->
+			<a href="https://web.whatsapp.com/send?text= https://bootswatch.com/sketchy/ " class="fa fa-whatsapp"></a>&nbsp;
+						<!--To share on WhatsApp link: https://web.whatsapp.com/send?text= YOUR WEBSITE URL -->
+			<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//bootswatch.com/sketchy/&title=Sketchy&summary=&source=" class="fa fa-linkedin"></a>&nbsp;
+						<!--To share on LinkedIn go to :http://www.sharelinkgenerator.com/ -->
+			<a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//bootswatch.com/sketchy/&description=" class="fa fa-pinterest"></a>&nbsp;
+						<!--To share on LinkedIn go to :http://www.sharelinkgenerator.com/ -->	
+						
+		</div>
+		<div class="col-sm-6 col-xs-12" style="font-size: 0.9em; padding-top: 3px; color: #EB6864;">
+			<p>MySite Copyright &copy; 2017 <a href="credits.html">credits & attributions</a></p>
+		</div>
+	</div>
+
+<!--- - - - - - - - - - - -FOOTER  END - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+</body>
+</html>
