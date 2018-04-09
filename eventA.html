@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Journal Theme</title>
+<!-- Ensure proper rendering and touch zooming on mobile
+devices -->
+<meta name="viewport" content="width=device-width, initial-scale=
+1.0">
+<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+<!--======================LIBS JS:========================================= -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="libs/lightbox2-master/dist/js/lightbox.min.js"></script>
+<!--======================LIBS CSS:========================================= -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="libs/lightbox2-master/dist/css/lightbox.min.css">
+<!--======================FONTAWESOME 4.7.0 :========================================= -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--======================MAIN CSS:========================================= -->
+<link rel="stylesheet" type="text/css" href="css/main.min.css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements
+and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/
+html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/
+respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!--- - - - - - - - - - - -NAVIGATION - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" style="">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown" >
+	        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="action1" href="#">Action 1
+	        	<span class="caret"></span>
+	        </a>
+	        <div class="dropdown-menu" area-labelledby="action1" style="min-width: 20rem;">
+	        	<a class="dropdown-item" href="#">Action 1A</a>
+	        	<div class="dropdown-divider"></div>
+		        	<div class="row">
+		        		<div class="col-sm-6 col-xs-12">
+		        			<a class="dropdown-item" href="#">Action 1B</a>
+				        	<a class="dropdown-item" href="#">Action 1C</a>
+				        	<a class="dropdown-item" href="#">Action 1D</a>
+				        	<a class="dropdown-item" href="#">Action 1E</a>
+				        	<a class="dropdown-item" href="#">Action 1F</a>
+		        		</div>
+		        		<div class="col-sm-6 col-xs-12">
+		        			<a class="dropdown-item" href="#">Action 1G</a>
+				        	<a class="dropdown-item" href="#">Action 1H</a>
+				        	<a class="dropdown-item" href="#">Action 1J</a>
+				        	<a class="dropdown-item" href="#">Action 1K</a>
+				        	<a class="dropdown-item" href="#">Action 1L</a>
+		        		</div>
+		        	</div>
+	        	
+	        	
+	        </div>
+      </li>
+      <li class="nav-item dropdown" >
+	        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="action2" href="#">Action 2
+	        	<span class="caret"></span>
+	        </a>
+	        <div class="dropdown-menu" area-labelledby="action2" style="min-width: 25rem;">
+	        	<div class="row">
+	        		<div class="col-sm-6 col-xs-12">
+	        			<a class="dropdown-item event" href="eventA.html">	        			
+			        		<img src="images/small/event1.jpg">
+			        		<div class="caption">
+			        			<p>Event A</p>
+			        		</div>
+			        	</a>	        	
+			        	<a class="dropdown-item event" href="#">
+			        		<img src="images/small/event3.jpg">
+			        		<div class="caption">
+			        			<p>Event B</p>
+			        		</div>
+			        	</a>
+			        	<a class="dropdown-item event" href="#">
+			        		<img src="images/small/event2.jpg">
+			        		<div class="caption">
+			        			<p>Event C</p>
+			        		</div>
+			        	</a>
+	        		</div>
+	        		<div class="col-sm-6 col-xs-12">
+	        			<a class="dropdown-item event" href="#">	        			
+			        		<img src="images/small/event4.jpg">
+			        		<div class="caption">
+			        			<p>Event D</p>
+			        		</div>
+			        	</a>	        	
+			        	<a class="dropdown-item event" href="#">
+			        		<img src="images/small/coffee_sm.jpg">
+			        		<div class="caption">
+			        			<p>Event E</p>
+			        		</div>
+			        	</a>
+			        	<a class="dropdown-item event" href="#">
+			        		<img src="images/small/event5.jpg">
+			        		<div class="caption">
+			        			<p>Event F</p>
+			        		</div>
+			        	</a>
+	        		</div>
+	        	</div>
+	        	
+	        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Archive</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+	    <a class="nav-link disabled" href="#">Link Disabled</a>
+	  </li>
+    </ul>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown" style="padding-right: 5px;">
+	  <button type="button" class="btn btn-secondary">Sign In</button>
+	  <div class="btn-group" role="group">
+	    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+	    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform; ">
+	      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#login">Login</a>
+	      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#register">Register</a>
+	    </div>
+	  </div>
+	</div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+	<!--- - - - - -Modals #login, #register and #passwordReset - - - -  -->
+ <div class="modal" id="login">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title">Log In:</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <form class="form">
+				      	<div class="modal-body">				        
+							<legend>Welcome Back</legend>
+						    
+						    <div class="form-group">
+						      <label for="exampleInputEmail1">Email address</label>
+						      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						    </div>
+						    <div class="form-group">
+						      <label for="exampleInputPassword1">Password</label>
+						      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						    </div>
+						    <p><a href="#" data-toggle="modal" data-target="#passwordReset">Forgot your password ?</a></p>
+
+					    </div>
+					     <div class="modal-footer">
+					        <button type="submit" class="btn btn-primary">Sign In</button>
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					     </div>
+				      </form>
+				    </div>
+				  </div>
+				</div>
+				<!--#login end-->
+				<!--Modal  #register-->
+				<div class="modal" id="register">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title">Registration</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				    <form class="form">
+				      <div class="modal-body">
+					        <legend>Register with us:</legend>
+					        <div class="form-group">
+					        	<label for="firstname">First name</label>
+					        	<input type="text" name="firstname" class="form-control" id="firstname" placeholder="type your First Name">
+					        </div>
+					        <div class="form-group">
+					        	<label for="lasttname">Last name</label>
+					        	<input type="text" name="lasttname" class="form-control" id="lasttname" placeholder="type your Last Name">
+					        </div>
+				        	<div class="form-group">
+						      <label for="email">Email address</label>
+						      <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">  
+						    </div>
+						    <div class="form-group">
+						      <label for="confirm_email">Confirm Email address</label>
+						      <input type="email" name="confirm_email" class="form-control" id="confirm_email" aria-describedby="emailHelp" placeholder="Re-type your Enter email">  
+						    </div>
+						    <div class="form-group">
+						    	<label for="password">Choose password</label>
+						    	<input type="password" name="password" class="form-control" id="password">
+						    </div>
+						    <div class="form-group">
+						    	<label for="confirm_password">Confirm password</label>
+						    	<input type="password" name="confirm_password" class="form-control" id="confirm_password">
+						    </div>
+
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-primary">Register</button>
+				        <button type="reset" class="btn btn-primary">Reset</button>
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				      </div>
+				    </form>
+				    </div>
+				  </div>
+				</div>
+				<!--End Modal  #register-->
+				<!--Modal  Forgot password-->
+					<div class="modal" id="passwordReset">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title">Password Reset</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <form class="form">
+					      <div class="modal-body">
+					        <legend>Type your email address:</legend>
+						    
+						    <div class="form-group">
+						      <label for="exampleInputEmail1">Email address</label>
+						      <input type="email" class="form-control" id="passwordResetEmail" aria-describedby="emailHelp" placeholder="Enter email">
+						      <small id="emailHelp" class="form-text text-muted">We shall email you link for password reset</small>
+						    </div>
+					        	<br><br><br><br><br>
+
+					        
+					      </div>
+					      <div class="modal-footer">
+					        <button type="submit" class="btn btn-primary">Reset Password</button>
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					      </div>
+				      </form>
+				    </div>
+				  </div>
+				</div>
+
+				<!--Modal  Forgot password End-->
+
+	<!--- - - - - -Modals #login and #register #passwordReset end- - - -  -->
+<!--- - - - - - - - - - - -NAVIGATION END- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item"><a href="action2.html">Action 2</a></li>
+  <li class="breadcrumb-item active">Event A</li>
+</ol>
+<!--- - - - - - - - - - - -MAIN CONTENT- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<div class="container-fluid">
+	
+		<!--Carousel Start: -->
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-100" src="images/frontpage/slide4.jpg" alt="First slide">
+					      <div class="carousel-caption d-none d-md-block">
+					      	<a href="#" style="text-decoration: none; color: black;">
+					      		<h3>Sed ut perspiciatis unde omnis</h3>
+						    	<p>laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+					      	</a>						    
+						  </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="images/frontpage/slide5.jpg" alt="Second slide">
+					      <div class="carousel-caption d-none d-md-block">
+					      	<a href="#" style="text-decoration: none; color: black;">
+					      		<h3 class="text-primary">Sed ut perspiciatis unde omnis</h3>
+						    	<p class="text-primary">laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+					      	</a>						    
+						  </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="images/frontpage/slide6.jpg" alt="Third slide">
+					      <div class="carousel-caption d-none d-md-block">
+					      	<a href="#" style="text-decoration: none; color: black;">
+					      		<h3>Sed ut perspiciatis unde omnis</h3>
+						    	<p>laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+					      	</a>						    
+						  </div>
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+					 
+					<!--Carousel End -->
+
+</div><!--end container fluid -->
+
+<div class="container-fluid pt-4" id="main">
+	<div class="row pl-3 pr-3 pb-3 d-none d-sm-block"> <!-- d-none d-sm-block hide on screen smaller than sm -->
+		<a href=""></a>
+	<div class="gallery text-center">
+		<img src="images/modal/image_1.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_2.jpg" alt="" text="See the article..." url="index.html"  data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_3.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_4.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_5.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_6.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_7.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_8.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_9.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_10.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_11.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_12.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_13.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_14.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_15.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_16.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_17.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_18.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_19.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+		<img src="images/modal/image_20.jpg" alt="" text="See the article..." url="index.html" data-toggle="modal" data-target="#exampleModal" class="rounded img-fluid">
+	</div>
+	<!--modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+
+	      <div class="modal-body">
+	        <div id="imageBox" style="text-align: center;">
+	        	<img src=""  alt="" title="" class="img-fluid">
+	        	<div class="carousel-caption" id="imageText">
+              		<a href=""><h4 class="text-primary"></h4></a>
+            	</div>
+				
+			</div>
+	      </div>
+	      
+	    </div>
+	  </div>
+	</div><!--modal end-->
+	</div><!--row end -->
+<div class="row">
+	<div class="col-md-3 col-sm-6 col-12" style="text-align: center;">
+		<div class="article">
+			<div class="frame1 pl-2 pt-2">
+				<img src="images/eventA/image1.jpg" class="rounded img-fluid">
+			</div>
+				<h4 class="text-primary text-center">Aenean massa</h4>
+				<p class="text-justify" class="text-justify">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+				<p><a href="#"><i class="fa fa-gittip" style="font-size:1rem"></i>&nbsp;Nullam dictum felis eu&nbsp;<i class="fa fa-gittip" style="font-size:1rem"></i></a></p>
+				<p><a href="#">Etiam ultricies nisi</a></p>
+				<p><a href="#">Curabitur ullamcorper</a></p>
+				<p><a href="#">Aenean commodo ligula</a></p>			
+		</div>		
+	</div>
+	<div class="col-md-6 col-sm-6 col-12">
+		<div class="article">
+			<div class="frame2 pr-1 pt-2">
+				<img src="images/eventA/image2.jpg" class="rounded img-fluid ">	
+			</div>			
+			<h4 class="text-primary text-center">Lorem ipsum dolor sit amet</h4>
+			<p class="text-justify"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+			<p class="text-justify">Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+		</div>		
+	</div>
+	<div class="col-md-3 col-sm-12 col-12" style="text-align: center;">
+		<div class="article">
+			<div class="frame1 pl-2 pt-2">
+				<img src="images/eventA/image3.jpg" class="rounded img-fluid">
+			</div>
+			
+			<h4 class="text-primary text-center">Nullam dictum felis</h4>
+			<p class="text-justify"> Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Etiam ultricies nisi vel augue.</p>	
+		</div>
+		
+		<div id="thumbs">
+			<a href="images/modal/accessory_1.jpg" data-lightbox="galleryOne"><img src="images/modal/accessory_1_small.jpg" class="rounded-circle img-fluid"></a>
+			<a href="images/modal/accessory_2.jpg" data-lightbox="galleryOne"><img src="images/modal/accessory_2_small.jpg" class="rounded-circle img-fluid"></a>
+			<a href="images/modal/accessory_3.jpg" data-lightbox="galleryOne"><img src="images/modal/accessory_3_small.jpg" class="rounded-circle img-fluid"></a>
+			<a href="images/modal/accessory_4.jpg" data-lightbox="galleryOne"><img src="images/modal/accessory_4_small.jpg" class="rounded-circle img-fluid"></a>
+			<a href="images/modal/accessory_5.jpg" data-lightbox="galleryOne"><img src="images/modal/accessory_5_small.jpg" class="rounded-circle img-fluid"></a>
+			<a href="images/modal/accessory_6.jpg" data-lightbox="galleryOne"><img src="images/modal/accessory_6_small.jpg" class="rounded-circle img-fluid"></a>
+			<a href="images/modal/accessory_7.jpg" data-lightbox="galleryOne"><img src="images/modal/accessory_7_small.jpg" class="rounded-circle img-fluid"></a>
+			<a href="images/modal/accessory_8.jpg" data-lightbox="galleryOne"><img src="images/modal/accessory_8_small.jpg" class="rounded-circle img-fluid"></a>
+		</div>
+	</div>	
+</div><!-- End row -->	
+</div><!-- End container-fluid -->
+
+	
+<!--- - - - - - - - - - - -MAIN CONTENT- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+<!--- - - - - - - - - - - -FOOTER- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<div class="container-fluid" id="well">
+	<br>
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="row"><div class="col-md-12"><h5 style="text-align: center;">Site Map:</h5></div></div>
+			<div class="row sitemap">
+		        		<div class="col-lg-3 col-md-6 col-6">
+		        			<ul>
+		        				<li><a  href="#">Action 1B</a></li>
+		        				<li><a  href="#">Action 1C</a></li>
+		        				<li><a  href="#">Action 1D</a></li>
+		        				<li><a  href="#">Action 1E</a></li>
+		        				<li><a  href="#">Action 1F</a></li>
+		        			</ul>
+		        		</div>
+		        		<div class="col-lg-3 col-md-6 col-6">
+		        			<ul>
+		        				<li><a  href="#">Action 1G</a></li>
+		        				<li><a  href="#">Action 1H</a></li>
+		        				<li><a  href="#">Action 1J</a></li>
+		        				<li><a  href="#">Action 1K</a></li>
+		        				<li><a  href="#">Action 1L</a></li>
+		        			</ul>
+		        		</div>
+		        		<div class="col-lg-3 col-md-6 col-6">
+							<ul>
+								<li><a href="eventA.html">Event A</a></li>
+								<li><a href="#">Event B</a></li>
+								<li><a href="#">Event C</a></li>				
+							</ul>
+						</div>
+						<div class="col-lg-3 col-md-6 col-6" >
+							<ul>
+								<li><a href="#">Event D</a></li>
+								<li><a href="#">Event E</a></li>
+								<li><a href="#">Event F</a></li>				
+							</ul>
+						</div>
+		    </div>
+		</div>
+
+		
+		<div class="col-md-3 col-sm-12" >
+			<div class="row"><div class="col-md-12"><h5 style="text-align: center;">In partnership:</h5></div></div>
+			<br>
+			<div class="row" style="padding-right: 30px;">
+				
+					<div class="col-sm-4  col-xs-12 partnership" >				
+					    <a href="#"><img src="images/logo2.png" class="img-fluid"></a>
+					    <p><small>Company Ltd.</small></p>				  
+					</div>
+					<div class="col-sm-4  col-xs-12 partnership">				
+						    <a href="#"><img src="images/logo3.png" class="img-fluid"></a>
+						    <p><small>Company Ltd.</small></p>					
+					</div>
+					<div class="col-sm-4  col-xs-12 partnership" >				
+						    <a href="#"><img src="images/logo4.png" class="img-fluid"></a>
+						    <p><small>Company Ltd.</small></p>					
+					</div>
+			</div>	
+		</div>	
+
+		<div class="col-md-3 offset-md-0 col-sm-6 offset-sm-3 col-xs-12" >		
+			
+				
+					<form class="form" style="padding: 0 3px 0 30px;">
+					  <fieldset style="padding-bottom: 5px;">  
+					  	<h5 style="text-align: center;">Ask a question:</h5>     
+					    <div class="form-group">
+						  <label class="col-form-label col-form-label-sm" for="email">Email</label>
+						  <input class="form-control form-control-sm" type="email" name="email" placeholder="Email address" id="emailInquiry">
+
+					      <label for="exampleTextarea" class="col-form-label-sm">Your inquiry</label>
+					      <textarea class="form-control form-control-sm" id="exampleTextarea" rows="3"></textarea>
+					    </div>
+					              
+					      <div class="form-check">
+					        <label class="form-check-label col-form-label-sm">
+					          <input class="form-check-input form-control-sm" type="checkbox" value="" checked="">
+					        <small>Email me new product releases</small> 
+					        </label>
+					        <label class="form-check-label col-form-label-sm">
+					          <input class="form-check-input form-control-sm" type="checkbox" value="" checked="">
+					          <small>Email me Promotional offers</small>
+					        </label>
+					      </div>           
+					   
+					    <button type="submit" class="btn btn-primary ">Submit</button>
+					  </fieldset>
+					</form>
+
+				
+				
+		</div>				
+		
+
+	</div><!--END ROW -->
+
+	
+</div>
+
+<div class="row ">
+		<div class="col-sm-6 col-12 credentials1 text-sm-right text-center pt-3 " style="">
+			<a href="http://www.facebook.com/sharer.php?u= https://bootswatch.com/sketchy/ " class="fa fa-facebook"></a>&nbsp;
+				  		<!--To share on facebook link: http://www.facebook.com/sharer.php?u= YOUR WEBSITE URL -->
+			<a href="https://twitter.com/share?ref_src=https://bootswatch.com/sketchy/" class="fa fa-twitter"></a>&nbsp;
+						<!--To share on TWITTER link: https://twitter.com/share?ref_src= YOUR WEBSITE URL -->
+			<a href="https://plus.google.com/share?url=https://bootswatch.com/sketchy/" class="fa fa-google"></a>&nbsp;
+						<!--To share on Google link: https://plus.google.com/share?url= YOUR WEBSITE URL -->
+			<a href="https://web.whatsapp.com/send?text= https://bootswatch.com/sketchy/ " class="fa fa-whatsapp"></a>&nbsp;
+						<!--To share on WhatsApp link: https://web.whatsapp.com/send?text= YOUR WEBSITE URL -->
+			<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//bootswatch.com/sketchy/&title=Sketchy&summary=&source=" class="fa fa-linkedin"></a>&nbsp;
+						<!--To share on LinkedIn go to :http://www.sharelinkgenerator.com/ -->
+			<a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//bootswatch.com/sketchy/&description=" class="fa fa-pinterest"></a>&nbsp;
+						<!--To share on LinkedIn go to :http://www.sharelinkgenerator.com/ -->	
+						
+		</div>
+		<div class="col-sm-6 col-12 credentials2 text-sm-left text-center pt-3" style="">
+			<p>MySite Copyright &copy; 2017<a href="credits.html" target="_blank">credits & attributions</a></p>
+		</div>
+</div>
+
+
+<!--- - - - - - - - - - - -FOOTER  END - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		lightbox.option({
+      		'albumLabel' : 'Event A: Lorem ipsum dolor'
+
+    		});// end lightbox
+
+		// my modal:
+		$('#exampleModal').on('show.bs.modal', function(event){
+			var thumbnail = $(event.relatedTarget); // the thumbnail img that triggered the modal
+			        p = $(thumbnail).attr('src'); // get the thumbnail 'src' value
+			        t = $(thumbnail).attr('text');// get the thumbnail 'text' value
+			        link = $(thumbnail).attr('url')
+			        newp = p.replace('.jpg','_large.jpg');// replace the part of SRC value '.jpg' with '_large.jpg'
+
+			        $('#imageBox img').attr('src',newp);// attribuate new SRC value to the modal image SRC.
+					$('#imageText a h4').html(t); // attribute html text to modal text <p>	
+					$('#imageText a').attr('href', link); // attribute the url from image to modal <a>
+		});//end on
+
+	}); //end ready
+
+
+
+</script>
+</body>
+</html>
